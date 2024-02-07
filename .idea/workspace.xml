@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2231 : 분해합">
-      <change afterPath="$PROJECT_DIR$/Bronze/B_1236/B_1236.iml" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1236 : 성 지키기">
+      <change afterPath="$PROJECT_DIR$/Bronze/B_2851/B_2851.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -87,7 +87,7 @@
       <workItem from="1707119839350" duration="705000" />
       <workItem from="1707177941839" duration="42000" />
       <workItem from="1707281478780" duration="104000" />
-      <workItem from="1707281588083" duration="3158000" />
+      <workItem from="1707281588083" duration="6909000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -121,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707120453382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="백준 1236 : 성 지키기">
+      <option name="closed" value="true" />
+      <created>1707293005760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707293005760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="백준 1236 : 성 지키기">
+      <option name="closed" value="true" />
+      <created>1707294394276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707294394276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +148,8 @@
     <MESSAGE value="백준 2292 : 벌집" />
     <MESSAGE value="gitignore 파일 수정" />
     <MESSAGE value="백준 2231 : 분해합" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2231 : 분해합" />
+    <MESSAGE value="백준 1236 : 성 지키기" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1236 : 성 지키기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
