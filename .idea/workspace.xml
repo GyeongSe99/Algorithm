@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1681 : 임시 반장 정하기">
-      <change afterPath="$PROJECT_DIR$/Bronze/B_2702/B_2702.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2702 : 초6 수학" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,10 +52,10 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="애플리케이션.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="B_2851" />
+      <module name="B_2747" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.Main (4)" />
         <item itemvalue="애플리케이션.Main (3)" />
-        <item itemvalue="애플리케이션.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +118,7 @@
       <workItem from="1707281478780" duration="104000" />
       <workItem from="1707281588083" duration="6909000" />
       <workItem from="1707308861025" duration="7470000" />
-      <workItem from="1707484994788" duration="18760000" />
+      <workItem from="1707484994788" duration="19079000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -200,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707511897942</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="백준 2702 : 초6 수학">
+      <created>1707512974022</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707512974022</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +218,8 @@
     <MESSAGE value="백준 2851 : 슈퍼마리오" />
     <MESSAGE value="백준 1268 : 임시 반장 정하기" />
     <MESSAGE value="백준 1681 : 임시 반장 정하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 1681 : 임시 반장 정하기" />
+    <MESSAGE value="백준 2702 : 초6 수학" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2702 : 초6 수학" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
