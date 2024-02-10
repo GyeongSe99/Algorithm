@@ -16,6 +16,8 @@ public class Main {
             int last21 = num / 21;
             int sum = (3 * last3 * (last3 + 1) / 2) + (7 * last7 * (last7 + 1) / 2) - (21 * last21 * (last21 + 1) / 2);
 
+
+
             System.out.println(sum);
         }
 
