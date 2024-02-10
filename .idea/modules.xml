@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_1037/B_1037.iml" filepath="$PROJECT_DIR$/Bronze/B_1037/B_1037.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_1236/B_1236.iml" filepath="$PROJECT_DIR$/Bronze/B_1236/B_1236.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_1268/B_1268.iml" filepath="$PROJECT_DIR$/Bronze/B_1268/B_1268.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Silver/B_12891/B_12891.iml" filepath="$PROJECT_DIR$/Silver/B_12891/B_12891.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_1681/B_1681.iml" filepath="$PROJECT_DIR$/Bronze/B_1681/B_1681.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_17206/B_17206.iml" filepath="$PROJECT_DIR$/Bronze/B_17206/B_17206.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_1977/B_1977.iml" filepath="$PROJECT_DIR$/Bronze/B_1977/B_1977.iml" />
@@ -19,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_2851/B_2851.iml" filepath="$PROJECT_DIR$/Bronze/B_2851/B_2851.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/B_3040/B_3040.iml" filepath="$PROJECT_DIR$/Bronze/B_3040/B_3040.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bronze/Bronze.iml" filepath="$PROJECT_DIR$/Bronze/Bronze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Platinum/P_11003/P_11003.iml" filepath="$PROJECT_DIR$/Platinum/P_11003/P_11003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Platinum/Platinum.iml" filepath="$PROJECT_DIR$/Platinum/Platinum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Silver/S_12891/S_12891.iml" filepath="$PROJECT_DIR$/Silver/S_12891/S_12891.iml" />
       <module fileurl="file://$PROJECT_DIR$/Silver/Silver.iml" filepath="$PROJECT_DIR$/Silver/Silver.iml" />
     </modules>
   </component>
