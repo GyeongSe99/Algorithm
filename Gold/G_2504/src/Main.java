@@ -1,15 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
-        Map<Character, Character> map = new HashMap();
-        map.put('(', ')');
-        map.put('[', ']');
         Stack<Character> stack = new Stack<>();
 
         boolean isValid = true;
@@ -18,42 +12,84 @@ public class Main {
             isValid = false;
         }
 
-        char prev = '0';
-
-        StringBuilder sb = new StringBuilder();
+        int result = 0;
 
         for (int i = 0; i < s.length(); i++) {
+            if (!isValid) break;
 
-            char cur = s.charAt(i);
-            // 여는 괄호일 경우
-            // 아무 연산도 할 수 없으므로 prev를 stack에 넣는다.
-            if (cur == '(' || cur == '[') {
-                sb.append("+");
-                stack.push(cur);
-                prev = cur;
-            } else if (cur == ')') {
-                if (!stack.isEmpty()) {
-                    if (prev == '(') {
-                        stack.pop();
-                        sb.append("2");
-                        prev = cur;
-                    } else if (prev == ')') {
-                        if (stack.peek() == '(') {
-                            stack.pop();
-                            sb.append("*").append("2");
-                            prev = cur;
+            char c = s.charAt(i);
+
+            if ( c == '(') {
+                stack.push('+');
+                stack.push('(');
+            } else if (c == '[') {
+                stack.push('+');
+                stack.push('[');
+            } else if (c == ')') {
+                int cal = 1;
+                int temp = 0;
+
+                while (!stack.isEmpty()) {
+                    char now = stack.pop();
+                    if (now == '(') {
+                        cal *= 2;
+                        stack.push((char)(cal + '0'));
+                        break;
+                    } else if (now == '+') {
+                        if (cal == 1) {
+                            cal += temp - 1;
                         } else {
-                            isValid = false;
-                            break;
+                            cal += temp;
                         }
+                        temp = 0;
+                    } else if (now == '[') {
+                        isValid = false;
+                        break;
+                    } else {
+                        temp += now - '0';
                     }
-                } else {
-                    isValid = false;
-                    break;
                 }
             } else {
+                int cal = 1;
+                int temp = 0;
 
+                while (!stack.isEmpty()) {
+                    char now = stack.pop();
+                    if (now == '[') {
+                        cal *= 3;
+                        stack.push((char)(cal + '0'));
+                        break;
+                    } else if (now == '+') {
+                        if (cal == 1) {
+                            cal += temp - 1;
+                        } else {
+                            cal += temp;
+                        }
+                    } else if (now == '(') {
+                        isValid = false;
+                    } else {
+                        temp += now - '0';
+                    }
+                }
             }
+        }
+
+        while (!stack.isEmpty() && isValid){
+            char c = stack.pop();
+            if (c == '[' || c == '(' || c == ')' || c == ']') {
+                isValid = false;
+            } else {
+                if (c != '+') {
+                    int num = c - '0';
+                    result += num;
+                }
+            }
+        }
+
+        if (isValid) {
+            System.out.println(result);
+        } else {
+            System.out.println(0);
         }
     }
 }
