@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2504 : 괄호의 값 미완성">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2504 : 괄호의 값">
+      <change afterPath="$PROJECT_DIR$/Silver/S_2304/S_2304.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gold/G_2504/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gold/G_2504/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/G_2504/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/G_2504/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +59,11 @@
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main (3).executor": "Run",
     "애플리케이션.Main (4).executor": "Run",
+    "애플리케이션.Main (5).executor": "Run",
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Main (4)">
+  <component name="RunManager" selected="애플리케이션.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="S_12891" />
@@ -89,20 +92,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="B_17206" />
+      <module name="S_2304" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main (5)" />
         <item itemvalue="애플리케이션.Main (4)" />
         <item itemvalue="애플리케이션.Main (3)" />
         <item itemvalue="애플리케이션.Main (2)" />
         <item itemvalue="애플리케이션.Main (1)" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +135,7 @@
       <workItem from="1707867567550" duration="1346000" />
       <workItem from="1707868925895" duration="26000" />
       <workItem from="1707874495078" duration="9054000" />
-      <workItem from="1708042699777" duration="1331000" />
+      <workItem from="1708042699777" duration="11165000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -296,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707814891561</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="백준 2504 : 괄호의 값">
+      <option name="closed" value="true" />
+      <created>1708044241358</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1708044241358</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,7 +332,8 @@
     <MESSAGE value="백준 12891 : DNA 비밀번호" />
     <MESSAGE value="백준 9012 : 괄호" />
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2504 : 괄호의 값 미완성" />
+    <MESSAGE value="백준 2504 : 괄호의 값" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2504 : 괄호의 값" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,11 +342,6 @@
           <url>file://$PROJECT_DIR$/Silver/S_12891/src/Main.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Gold/G_2504/src/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
