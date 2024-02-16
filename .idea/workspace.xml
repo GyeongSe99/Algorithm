@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2504 : 괄호의 값">
-      <change afterPath="$PROJECT_DIR$/Silver/S_2304/S_2304.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/G_2504/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/G_2504/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2304 : 창고 다각형" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +130,7 @@
       <workItem from="1707867567550" duration="1346000" />
       <workItem from="1707868925895" duration="26000" />
       <workItem from="1707874495078" duration="9054000" />
-      <workItem from="1708042699777" duration="11165000" />
+      <workItem from="1708042699777" duration="12445000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -307,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708044241358</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="백준 2304 : 창고 다각형">
+      <option name="closed" value="true" />
+      <created>1708064019198</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1708064019198</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +336,8 @@
     <MESSAGE value="백준 9012 : 괄호" />
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
     <MESSAGE value="백준 2504 : 괄호의 값" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2504 : 괄호의 값" />
+    <MESSAGE value="백준 2304 : 창고 다각형" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2304 : 창고 다각형" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
