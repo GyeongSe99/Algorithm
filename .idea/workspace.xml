@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2304 : 창고 다각형" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 6198 : 옥상 정원 꾸미기 미완성">
+      <change beforePath="$PROJECT_DIR$/Gold/G_6198/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gold/G_6198/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +42,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SSAFY/Desktop/Algorithm",
+    "last_opened_file_path": "C:/Users/SSAFY/Desktop/2024study",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,14 +60,7 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="S_12891" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="P_11003" />
@@ -94,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="G_6198" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (5)" />
         <item itemvalue="애플리케이션.Main (4)" />
         <item itemvalue="애플리케이션.Main (3)" />
         <item itemvalue="애플리케이션.Main (2)" />
-        <item itemvalue="애플리케이션.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +132,7 @@
       <workItem from="1707867567550" duration="1346000" />
       <workItem from="1707868925895" duration="26000" />
       <workItem from="1707874495078" duration="9054000" />
-      <workItem from="1708042699777" duration="12445000" />
+      <workItem from="1708042699777" duration="14486000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -310,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708064019198</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="백준 6198 : 옥상 정원 꾸미기 미완성">
+      <option name="closed" value="true" />
+      <created>1708064183825</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1708064183825</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +347,9 @@
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
     <MESSAGE value="백준 2504 : 괄호의 값" />
     <MESSAGE value="백준 2304 : 창고 다각형" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2304 : 창고 다각형" />
+    <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
+    <MESSAGE value="백준 6198 : 옥상 정원 꾸미기 미완성" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 6198 : 옥상 정원 꾸미기 미완성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
