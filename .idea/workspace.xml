@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2636 : 치즈">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2251 : 물통">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Main (2)">
+  <component name="RunManager" selected="애플리케이션.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="G_2636" />
@@ -77,9 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="G_2504" />
+      <module name="G_2096" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main (3)" />
         <item itemvalue="애플리케이션.Main (2)" />
         <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (5)" />
-        <item itemvalue="애플리케이션.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,7 @@
       <workItem from="1708111177025" duration="2000" />
       <workItem from="1708111202510" duration="19000" />
       <workItem from="1708111706299" duration="4133000" />
-      <workItem from="1708154622844" duration="16845000" />
+      <workItem from="1708154622844" duration="22159000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -342,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708159950909</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="백준 2251 : 물통">
+      <option name="closed" value="true" />
+      <created>1708172278467</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708172278467</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +380,8 @@
     <MESSAGE value="백준 6198 : 옥상 정원 꾸미기 미완성" />
     <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
     <MESSAGE value="백준 2636 : 치즈" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2636 : 치즈" />
+    <MESSAGE value="백준 2251 : 물통" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2251 : 물통" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,6 +390,11 @@
           <url>file://$PROJECT_DIR$/Silver/S_12891/src/Main.java</url>
           <line>18</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Gold/G_2096/src/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
