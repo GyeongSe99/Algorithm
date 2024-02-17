@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 6198 : 옥상 정원 꾸미기 미완성">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 6198 : 옥상 정원 꾸미기">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gold/G_6198/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gold/G_6198/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +61,10 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="애플리케이션.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="P_11003" />
+      <module name="G_2636" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (5)" />
         <item itemvalue="애플리케이션.Main (4)" />
         <item itemvalue="애플리케이션.Main (3)" />
-        <item itemvalue="애플리케이션.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,8 @@
       <workItem from="1708042699777" duration="14486000" />
       <workItem from="1708111177025" duration="2000" />
       <workItem from="1708111202510" duration="19000" />
-      <workItem from="1708111706299" duration="2244000" />
+      <workItem from="1708111706299" duration="4133000" />
+      <workItem from="1708154622844" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -324,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708064183825</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="백준 6198 : 옥상 정원 꾸미기">
+      <option name="closed" value="true" />
+      <created>1708114452930</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1708114452930</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,9 +360,9 @@
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
     <MESSAGE value="백준 2504 : 괄호의 값" />
     <MESSAGE value="백준 2304 : 창고 다각형" />
-    <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
     <MESSAGE value="백준 6198 : 옥상 정원 꾸미기 미완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 6198 : 옥상 정원 꾸미기 미완성" />
+    <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 6198 : 옥상 정원 꾸미기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
