@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2251 : 물통" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="프로그래머스 : 순위 검색">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/Lv2_72412/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/Lv2_72412/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,52 +62,6 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="G_2636" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="G_2251" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="G_2096" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="programmers" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="S_1904" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.Main (5)" />
-        <item itemvalue="애플리케이션.Main (4)" />
-        <item itemvalue="애플리케이션.Main (3)" />
-        <item itemvalue="애플리케이션.Main (2)" />
-        <item itemvalue="애플리케이션.Main (1)" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,7 +95,8 @@
       <workItem from="1708154622844" duration="22494000" />
       <workItem from="1708350090500" duration="4864000" />
       <workItem from="1708740379824" duration="1759000" />
-      <workItem from="1709737115142" duration="544000" />
+      <workItem from="1709737115142" duration="1838000" />
+      <workItem from="1709956796061" duration="11730000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -374,14 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708178903741</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="프로그래머스 : 순위 검색">
+      <option name="closed" value="true" />
+      <created>1709737706975</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1709737706975</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
     <MESSAGE value="백준 2292 : 벌집" />
     <MESSAGE value="gitignore 파일 수정" />
     <MESSAGE value="백준 2231 : 분해합" />
@@ -406,7 +371,8 @@
     <MESSAGE value="백준 2636 : 치즈" />
     <MESSAGE value="백준 2096 : 내려가기" />
     <MESSAGE value="백준 2251 : 물통" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2251 : 물통" />
+    <MESSAGE value="프로그래머스 : 순위 검색" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 : 순위 검색" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
