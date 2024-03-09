@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="프로그래머스 : 순위 검색">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers/Lv2_72412/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/Lv2_72412/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="프로그래머스 : 조이스틱(실패)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +93,7 @@
       <workItem from="1708350090500" duration="4864000" />
       <workItem from="1708740379824" duration="1759000" />
       <workItem from="1709737115142" duration="1838000" />
-      <workItem from="1709956796061" duration="11730000" />
+      <workItem from="1709956796061" duration="12553000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -340,14 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709737706975</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="프로그래머스 : 조이스틱(실패)">
+      <option name="closed" value="true" />
+      <created>1709970922455</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709970922455</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2292 : 벌집" />
     <MESSAGE value="gitignore 파일 수정" />
     <MESSAGE value="백준 2231 : 분해합" />
     <MESSAGE value="백준 1236 : 성 지키기" />
@@ -372,7 +376,8 @@
     <MESSAGE value="백준 2096 : 내려가기" />
     <MESSAGE value="백준 2251 : 물통" />
     <MESSAGE value="프로그래머스 : 순위 검색" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 : 순위 검색" />
+    <MESSAGE value="프로그래머스 : 조이스틱(실패)" />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 : 조이스틱(실패)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
