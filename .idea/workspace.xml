@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="프로그래머스 : 조이스틱(실패)">
+      <change afterPath="$PROJECT_DIR$/temp/src/temp/G_15683.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/temp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gold/G_11559/src/PuyoPuyo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gold/G_11559/src/PuyoPuyo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Algorithm",
+    "last_opened_file_path": "C:/Users/SSAFY/Desktop/Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +56,7 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true",
+    "애플리케이션.G_15683.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main (2).executor": "Run",
     "애플리케이션.Main (3).executor": "Run",
@@ -63,7 +66,20 @@
     "애플리케이션.PuyoPuyo.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.PuyoPuyo">
+  <component name="RunManager" selected="애플리케이션.G_15683">
+    <configuration name="G_15683" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp.G_15683" />
+      <module name="temp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lv2_42860" />
@@ -87,18 +103,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.G_15683" />
         <item itemvalue="애플리케이션.PuyoPuyo" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (1)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,6 +143,8 @@
       <workItem from="1710082374851" duration="1054000" />
       <workItem from="1710829286565" duration="1806000" />
       <workItem from="1710847112288" duration="2780000" />
+      <workItem from="1710920265811" duration="168000" />
+      <workItem from="1710920453539" duration="3044000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
