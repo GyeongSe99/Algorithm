@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="구성 변경">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWacademy/SWacademy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWacademy/src/treasureBox/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +55,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.G_15683.executor": "Run",
+    "애플리케이션.G_3190.Main.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main (2).executor": "Run",
     "애플리케이션.Main (3).executor": "Run",
@@ -75,17 +72,23 @@
       <recent name="C:\Users\SSAFY\Desktop\Algorithm\Silver\src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.workOrder.Solution">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lv2_42860" />
+  <component name="RunManager" selected="애플리케이션.G_3190.Main">
+    <configuration name="G_3190.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_3190.Main" />
+      <module name="Gold" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="G_3190.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Lv2_92342" />
+      <module name="Lv2_42860" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.G_3190.Main" />
         <item itemvalue="애플리케이션.workOrder.Solution" />
         <item itemvalue="애플리케이션.Solution" />
       </list>
@@ -134,7 +138,6 @@
     <attachedChunks>
       <set>
         <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +176,7 @@
       <workItem from="1710847112288" duration="2780000" />
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
+      <workItem from="1711548420236" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
