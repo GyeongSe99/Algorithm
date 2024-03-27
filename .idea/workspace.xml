@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="구성 변경">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="..">
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_11559/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_15683/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_2096/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_2251/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_2504/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_2636/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_3190/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Gold/G_6198/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +183,7 @@
       <workItem from="1710847112288" duration="2780000" />
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
-      <workItem from="1711548420236" duration="4272000" />
+      <workItem from="1711548420236" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -436,7 +443,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711347535940</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="백준 : 뱀">
+      <option name="closed" value="true" />
+      <created>1711552751578</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1711552751578</updated>
+    </task>
+    <task id="LOCAL-00036" summary="..">
+      <option name="closed" value="true" />
+      <created>1711553131096</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711553131096</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,8 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2231 : 분해합" />
-    <MESSAGE value="백준 1236 : 성 지키기" />
     <MESSAGE value="백준 2851 : 슈퍼마리오" />
     <MESSAGE value="백준 1268 : 임시 반장 정하기" />
     <MESSAGE value="백준 1681 : 임시 반장 정하기" />
@@ -479,7 +500,9 @@
     <MESSAGE value="프로그래머스 : 순위 검색" />
     <MESSAGE value="프로그래머스 : 조이스틱(실패)" />
     <MESSAGE value="구성 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="구성 변경" />
+    <MESSAGE value="백준 : 뱀" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
