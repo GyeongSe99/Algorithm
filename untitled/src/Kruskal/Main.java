@@ -1,5 +1,6 @@
+package Kruskal;
+
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class Main {
@@ -24,12 +25,7 @@ public class Main {
         }
 
         // 가중치 기준으로 정렬
-        Arrays.sort(edges, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] e1, int[] e2) {
-                return e1[2] - e2[2];
-            }
-        });
+        Arrays.sort(edges, (e1, e2) -> e1[2] - e2[2]);
 
         // V - 1 개의 간선 뽑기  (사이클이 발생하지 않도록 뽑기)
         p = new int[V];
@@ -58,6 +54,8 @@ public class Main {
 
             if (pick == V - 1) break;
         }
+
+        System.out.println(ans);
     }
 
     private static int findset(int x) {
