@@ -60,7 +60,7 @@ public class 다익스트라_우선순위큐 {
             for (Node node : adjList[curr.v]) {
                 if (!visited[node.v] && dist[node.v] > dist[curr.v] + node.w) {
                     dist[node.v] = dist[curr.v + node.w];
-                    pq.add(new Node(node.v, dist[node.v]))
+                    pq.add(new Node(node.v, dist[node.v]));
                 }
             }
         }
