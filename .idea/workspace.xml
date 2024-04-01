@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW academy : 하나로" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW academy : 하나로">
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -492,15 +496,7 @@
       <option name="project" value="LOCAL" />
       <updated>1711616426092</updated>
     </task>
-    <task id="LOCAL-00040" summary="SW academy : 하나로">
-      <option name="closed" value="true" />
-      <created>1711703074538</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1711703074538</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

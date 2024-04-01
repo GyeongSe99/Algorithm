@@ -28,11 +28,12 @@ public class Solution {
             for (int i = 0; i < N; i++) {
                 islands[i][0] = Integer.parseInt(st.nextToken());
             }
+            st = new StringTokenizer(br.readLine());
             for (int i = 0; i < N; i++) {
                 islands[i][1] = Integer.parseInt(st.nextToken());
             }
 
-            E = Double.parseDouble(st.nextToken());
+            E = Double.parseDouble(br.readLine());
 
             // 간선 정보 다 구해놓기
             // 0: 시작섬, 1: 도착섬, 2: 가중치
@@ -57,20 +58,31 @@ public class Solution {
                 }
             });
 
-            p = new int[E];
+            p = new int[E + 1];
 
-            for (int i = 0; i < E; i++) {
+            for (int i = 1; i < E + 1; i++) {
                 p[i] = i;
             }
 
             // 엄마 찾기
-            int ans = 0;    // 최소 비용
-            int pick = 0;   // 내가 뽑은 간선의 수
+            double ans = 0;    // 최소 비용
+            int pick = 0;   // 연결된 간선의 개수
 
             for (int i = 0; i < E; i++) {
                 int px = findset((int)edges[i][0]);
                 int py = findset((int)edges[i][1]);
+
+                if (px == py) continue;
+
+                ans += edges[i][2];
+                union(px, py);
+                pick++;
+
+                // 필요한 간선의 개수 : N - 1
+                if (pick >= N - 1) break;
             }
+
+            System.out.println("#" + test_case + " " + Math.round(ans));
         }
     }
 
@@ -83,6 +95,11 @@ public class Solution {
             // 부모가 최고 조상이 아니면 다시 그 위의 엄마 보기
             return findset(p[x]);
         }
+    }
+
+    // 부모 통일하기 = 연결하기
+    static void union(int x, int y) {
+        p[x] = y;
     }
 
     // 거리 계산
