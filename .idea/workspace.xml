@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="알고리즘 개념 : 프림_우선순위큐 최소신장">
-      <change afterPath="$PROJECT_DIR$/SSAFY/src/dijkstra/다익스트라_반복문.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSAFY/src/dijkstra/다익스트라_우선순위큐.java" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="알고리즘 개념 : 다익스트라">
+      <change afterPath="$PROJECT_DIR$/SWacademy/src/supply_route/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -540,7 +539,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711952294134</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="알고리즘 개념 : 다익스트라">
+      <option name="closed" value="true" />
+      <created>1711954982545</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1711954982545</updated>
+    </task>
+    <task id="LOCAL-00046" summary="알고리즘 개념 : 다익스트라">
+      <option name="closed" value="true" />
+      <created>1711955051018</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1711955051018</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 3040 : 백설공주와 일곱 난쟁이" />
     <MESSAGE value="백준 2399 : 거리의 합" />
     <MESSAGE value="백준 1977 : 완전제곱수" />
     <MESSAGE value="백준 17206 : 준석이의 수학 숙제" />
@@ -583,7 +597,8 @@
     <MESSAGE value="알고리즘 개념 : 위상정렬" />
     <MESSAGE value="알고리즘 개념 : 프림 최소신장" />
     <MESSAGE value="알고리즘 개념 : 프림_우선순위큐 최소신장" />
-    <option name="LAST_COMMIT_MESSAGE" value="알고리즘 개념 : 프림_우선순위큐 최소신장" />
+    <MESSAGE value="알고리즘 개념 : 다익스트라" />
+    <option name="LAST_COMMIT_MESSAGE" value="알고리즘 개념 : 다익스트라" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
