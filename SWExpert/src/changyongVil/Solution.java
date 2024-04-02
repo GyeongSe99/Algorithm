@@ -28,8 +28,10 @@ public class Solution {
                 st = new StringTokenizer(br.readLine());
                 int a = Integer.parseInt(st.nextToken());
                 int b = Integer.parseInt(st.nextToken());
+                int pa = findset(a);
+                int pb = findset(b);
 
-                union(a, b);
+                union(pa, pb);
             }
 
             Set<Integer> result = new HashSet<>();
@@ -54,10 +56,7 @@ public class Solution {
         return findset(p[n]);
     }
 
-    public static void union(int a, int b) {
-        int pa = findset(a);
-        int pb = findset(b);
-
+    public static void union(int pa, int pb) {
         if (pa == pb) return;
 
         if (pa <= pb) p[pb] = pa;

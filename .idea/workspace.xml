@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW academy : contact">
-      <change afterPath="$PROJECT_DIR$/SWacademy/src/changyongVil/Solution.java" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="이름 변경 : SW academy -&gt; SW Expert">
+      <change afterPath="$PROJECT_DIR$/SWExpert/src/disjoint_set/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,23 +84,10 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.changyongVil.Solution">
-    <configuration name="Failed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_14502.Failed" />
-      <module name="Gold" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_14502.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.disjoint_set.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="supply_route.Solution" />
-      <module name="SWacademy" />
+      <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="supply_route.*" />
@@ -125,7 +113,7 @@
     </configuration>
     <configuration name="changyongVil.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="changyongVil.Solution" />
-      <module name="SWacademy" />
+      <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="changyongVil.*" />
@@ -138,7 +126,7 @@
     </configuration>
     <configuration name="contact.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contact.Solution" />
-      <module name="SWacademy" />
+      <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="contact.*" />
@@ -149,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="disjoint_set.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="disjoint_set.Solution" />
+      <module name="SWExpert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="disjoint_set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.disjoint_set.Solution" />
         <item itemvalue="애플리케이션.changyongVil.Solution" />
         <item itemvalue="애플리케이션.contact.Solution" />
         <item itemvalue="애플리케이션.Solution" />
         <item itemvalue="애플리케이션.위상정렬_Stack" />
-        <item itemvalue="애플리케이션.Failed" />
       </list>
     </recent_temporary>
   </component>
@@ -202,30 +203,6 @@
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
       <workItem from="1711548420236" duration="4694000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <option name="closed" value="true" />
-      <created>1707120001703</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707120001703</updated>
-    </task>
-    <task id="LOCAL-00002" summary="백준 2292 : 벌집">
-      <option name="closed" value="true" />
-      <created>1707120033680</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707120033680</updated>
-    </task>
-    <task id="LOCAL-00003" summary="gitignore 파일 수정">
-      <option name="closed" value="true" />
-      <created>1707120427245</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707120427245</updated>
     </task>
     <task id="LOCAL-00004" summary="백준 2231 : 분해합">
       <option name="closed" value="true" />
@@ -581,7 +558,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712027097543</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="SW academy : contact">
+      <option name="closed" value="true" />
+      <created>1712038399198</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1712038399198</updated>
+    </task>
+    <task id="LOCAL-00051" summary="SW academy : 창용 마을 무리의 개수">
+      <option name="closed" value="true" />
+      <created>1712038426200</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1712038426200</updated>
+    </task>
+    <task id="LOCAL-00052" summary="이름 변경 : SW academy -&gt; SW Expert">
+      <option name="closed" value="true" />
+      <created>1712038732123</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1712038732123</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,8 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 17206 : 준석이의 수학 숙제" />
-    <MESSAGE value="백준 12891 : DNA 비밀번호" />
     <MESSAGE value="백준 9012 : 괄호" />
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
     <MESSAGE value="백준 2504 : 괄호의 값" />
@@ -624,7 +623,9 @@
     <MESSAGE value="알고리즘 개념 : 다익스트라" />
     <MESSAGE value="SW academy : 보급로" />
     <MESSAGE value="SW academy : contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="SW academy : contact" />
+    <MESSAGE value="SW academy : 창용 마을 무리의 개수" />
+    <MESSAGE value="이름 변경 : SW academy -&gt; SW Expert" />
+    <option name="LAST_COMMIT_MESSAGE" value="이름 변경 : SW academy -&gt; SW Expert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
