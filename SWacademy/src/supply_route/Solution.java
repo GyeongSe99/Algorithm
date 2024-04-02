@@ -36,6 +36,7 @@ public class Solution {
                 }
             }
 
+            dist[0][0] = 0;
             Queue<int[]> q = new LinkedList<>();
             q.add(new int[]{0, 0});
 
@@ -48,13 +49,10 @@ public class Solution {
                     int nr = r + d[i][0];
                     int nc = c + d[i][1];
 
-                    if (nr >= 0 && nr < N && nc >= 0 && nc < N) {
-                        int val = map[r][c] + dist[nr][nc];
-                        if (dist[r][c] > val) {
-                            dist[r][c] = val;
-                        }
-                        if (!visited[nr][nc]){
-                            visited[nr][nc] = true;
+                    if (nr >= 0 && nc >= 0 && nr < N && nc < N) {
+                        int val = dist[r][c] + map[nr][nc];
+                        if (val < dist[nr][nc]) {
+                            dist[nr][nc] = val;
                             q.add(new int[]{nr, nc});
                         }
                     }
