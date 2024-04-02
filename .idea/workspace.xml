@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="이름 변경 : SW academy -&gt; SW Expert">
-      <change afterPath="$PROJECT_DIR$/SWExpert/src/disjoint_set/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Expert : 서로소 집합">
+      <change afterPath="$PROJECT_DIR$/Gold/src/G_20055/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +71,7 @@
     "애플리케이션.Solution.executor": "Run",
     "애플리케이션.changyongVil.Solution.executor": "Run",
     "애플리케이션.contact.Solution.executor": "Run",
+    "애플리케이션.disjoint_set.Solution.executor": "Run",
     "애플리케이션.workOrder.Solution.executor": "Run",
     "애플리케이션.위상정렬_Stack.executor": "Run"
   }
@@ -203,14 +203,6 @@
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
       <workItem from="1711548420236" duration="4694000" />
-    </task>
-    <task id="LOCAL-00004" summary="백준 2231 : 분해합">
-      <option name="closed" value="true" />
-      <created>1707120453382</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1707120453382</updated>
     </task>
     <task id="LOCAL-00005" summary="백준 1236 : 성 지키기">
       <option name="closed" value="true" />
@@ -582,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712038732123</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="SW Expert : 서로소 집합">
+      <option name="closed" value="true" />
+      <created>1712044908902</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1712044908902</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 9012 : 괄호" />
     <MESSAGE value="백준 2504 : 괄호의 값 미완성" />
     <MESSAGE value="백준 2504 : 괄호의 값" />
     <MESSAGE value="백준 2304 : 창고 다각형" />
@@ -625,7 +624,8 @@
     <MESSAGE value="SW academy : contact" />
     <MESSAGE value="SW academy : 창용 마을 무리의 개수" />
     <MESSAGE value="이름 변경 : SW academy -&gt; SW Expert" />
-    <option name="LAST_COMMIT_MESSAGE" value="이름 변경 : SW academy -&gt; SW Expert" />
+    <MESSAGE value="SW Expert : 서로소 집합" />
+    <option name="LAST_COMMIT_MESSAGE" value="SW Expert : 서로소 집합" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
