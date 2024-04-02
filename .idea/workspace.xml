@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW academy : 보급로">
-      <change afterPath="$PROJECT_DIR$/SWacademy/src/contact/Solution.java" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW academy : contact">
+      <change afterPath="$PROJECT_DIR$/SWacademy/src/changyongVil/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +69,7 @@
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.PuyoPuyo.executor": "Run",
     "애플리케이션.Solution.executor": "Run",
+    "애플리케이션.changyongVil.Solution.executor": "Run",
     "애플리케이션.contact.Solution.executor": "Run",
     "애플리케이션.workOrder.Solution.executor": "Run",
     "애플리케이션.위상정렬_Stack.executor": "Run"
@@ -82,22 +83,9 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.contact.Solution">
+  <component name="RunManager" selected="애플리케이션.changyongVil.Solution">
     <configuration name="Failed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_14502.Failed" />
-      <module name="Gold" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_14502.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_14502.Main" />
       <module name="Gold" />
       <extension name="coverage">
         <pattern>
@@ -135,6 +123,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="changyongVil.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="changyongVil.Solution" />
+      <module name="SWacademy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="changyongVil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="contact.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="contact.Solution" />
       <module name="SWacademy" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.changyongVil.Solution" />
         <item itemvalue="애플리케이션.contact.Solution" />
         <item itemvalue="애플리케이션.Solution" />
         <item itemvalue="애플리케이션.위상정렬_Stack" />
         <item itemvalue="애플리케이션.Failed" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -572,7 +573,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712020610964</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="SW academy : contact">
+      <option name="closed" value="true" />
+      <created>1712027097543</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1712027097543</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 1977 : 완전제곱수" />
     <MESSAGE value="백준 17206 : 준석이의 수학 숙제" />
     <MESSAGE value="백준 12891 : DNA 비밀번호" />
     <MESSAGE value="백준 9012 : 괄호" />
@@ -615,7 +623,8 @@
     <MESSAGE value="알고리즘 개념 : 프림_우선순위큐 최소신장" />
     <MESSAGE value="알고리즘 개념 : 다익스트라" />
     <MESSAGE value="SW academy : 보급로" />
-    <option name="LAST_COMMIT_MESSAGE" value="SW academy : 보급로" />
+    <MESSAGE value="SW academy : contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="SW academy : contact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
