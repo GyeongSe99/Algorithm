@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 : 컨베이어 벨트 위의 로봇">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gold/src/G_20055/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gold/src/G_20055/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준20055 : 컨베이어 벨트 위의 로봇" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,14 +200,6 @@
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
       <workItem from="1711548420236" duration="4694000" />
-    </task>
-    <task id="LOCAL-00006" summary="백준 1236 : 성 지키기">
-      <option name="closed" value="true" />
-      <created>1707294394276</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1707294394276</updated>
     </task>
     <task id="LOCAL-00007" summary="백준 2851 : 슈퍼마리오">
       <created>1707312623264</created>
@@ -582,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712047677269</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="백준20055 : 컨베이어 벨트 위의 로봇">
+      <option name="closed" value="true" />
+      <created>1712115877488</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1712115877488</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2504 : 괄호의 값" />
     <MESSAGE value="백준 2304 : 창고 다각형" />
     <MESSAGE value="백준 6198 : 옥상 정원 꾸미기 미완성" />
     <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
@@ -625,7 +621,8 @@
     <MESSAGE value="이름 변경 : SW academy -&gt; SW Expert" />
     <MESSAGE value="SW Expert : 서로소 집합" />
     <MESSAGE value="백준 : 컨베이어 벨트 위의 로봇" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 : 컨베이어 벨트 위의 로봇" />
+    <MESSAGE value="백준20055 : 컨베이어 벨트 위의 로봇" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준20055 : 컨베이어 벨트 위의 로봇" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
