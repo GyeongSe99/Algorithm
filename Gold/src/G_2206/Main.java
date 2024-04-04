@@ -1,4 +1,5 @@
 package G_2206;
+// 벽 부수고 이동하기
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
