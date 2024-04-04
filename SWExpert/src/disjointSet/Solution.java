@@ -1,4 +1,4 @@
-package disjoint_set;
+package disjointSet;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

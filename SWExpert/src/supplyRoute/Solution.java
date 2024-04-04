@@ -1,4 +1,4 @@
-package supply_route;
+package supplyRoute;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

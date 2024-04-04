@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 20055 : 컨베이어 벨트 위의 로봇" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 14442 : 벽 부수고 이동하기2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWExpert/src/disjoint_set/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/disjointSet/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWExpert/src/supply_route/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/supplyRoute/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +60,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.Failed.executor": "Run",
+    "애플리케이션.G_14442.Main.executor": "Run",
     "애플리케이션.G_15683.executor": "Run",
     "애플리케이션.G_2206.Main.executor": "Run",
     "애플리케이션.G_3190.Main.executor": "Run",
@@ -122,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="changyongVil.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="changyongVil.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="disjointSet.Solution" />
       <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="changyongVil.*" />
+          <option name="PATTERN" value="disjointSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="disjoint_set.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="disjoint_set.Solution" />
+    <configuration name="changyongVil.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="changyongVil.Solution" />
       <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="disjoint_set.*" />
+          <option name="PATTERN" value="changyongVil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,14 +304,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00026" summary="백준 6198 : 옥상 정원 꾸미기">
-      <option name="closed" value="true" />
-      <created>1708114452930</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1708114452930</updated>
     </task>
     <task id="LOCAL-00027" summary="백준 2636 : 치즈">
       <option name="closed" value="true" />
@@ -580,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712192634843</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="백준 14442 : 벽 부수고 이동하기2">
+      <option name="closed" value="true" />
+      <created>1712193025276</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1712193025276</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 6198 : 옥상 정원 꾸미기" />
     <MESSAGE value="백준 2636 : 치즈" />
     <MESSAGE value="백준 2096 : 내려가기" />
     <MESSAGE value="백준 2251 : 물통" />
@@ -623,7 +627,8 @@
     <MESSAGE value="백준20055 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준 2206 : 벽 부수고 이동하기" />
     <MESSAGE value="백준 20055 : 컨베이어 벨트 위의 로봇" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 20055 : 컨베이어 벨트 위의 로봇" />
+    <MESSAGE value="백준 14442 : 벽 부수고 이동하기2" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 14442 : 벽 부수고 이동하기2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
