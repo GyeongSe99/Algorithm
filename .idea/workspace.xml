@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 14442 : 벽 부수고 이동하기2">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="2024-04-04 수업">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWExpert/src/disjoint_set/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/disjointSet/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWExpert/src/supply_route/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/supplyRoute/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +73,7 @@
     "애플리케이션.changyongVil.Solution.executor": "Run",
     "애플리케이션.contact.Solution.executor": "Run",
     "애플리케이션.disjoint_set.Solution.executor": "Run",
+    "애플리케이션.easyChange.Solution.executor": "Run",
     "애플리케이션.workOrder.Solution.executor": "Run",
     "애플리케이션.위상정렬_Stack.executor": "Run"
   }
@@ -87,7 +86,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.G_14442.Main">
+  <component name="RunManager" selected="애플리케이션.easyChange.Solution">
     <configuration name="G_14442.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_14442.Main" />
       <module name="Gold" />
@@ -140,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="changyongVil.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="changyongVil.Solution" />
+    <configuration name="easyChange.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easyChange.Solution" />
       <module name="SWExpert" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="changyongVil.*" />
+          <option name="PATTERN" value="easyChange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.easyChange.Solution" />
         <item itemvalue="애플리케이션.G_14442.Main" />
         <item itemvalue="애플리케이션.G_2206.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.disjoint_set.Solution" />
-        <item itemvalue="애플리케이션.changyongVil.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +303,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00027" summary="백준 2636 : 치즈">
-      <option name="closed" value="true" />
-      <created>1708159950909</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1708159950909</updated>
     </task>
     <task id="LOCAL-00028" summary="백준 2251 : 물통">
       <option name="closed" value="true" />
@@ -585,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712193025276</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="2024-04-04 수업">
+      <option name="closed" value="true" />
+      <created>1712202812710</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1712202812710</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +602,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2636 : 치즈" />
     <MESSAGE value="백준 2096 : 내려가기" />
     <MESSAGE value="백준 2251 : 물통" />
     <MESSAGE value="프로그래머스 : 순위 검색" />
@@ -628,7 +626,8 @@
     <MESSAGE value="백준 2206 : 벽 부수고 이동하기" />
     <MESSAGE value="백준 20055 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준 14442 : 벽 부수고 이동하기2" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 14442 : 벽 부수고 이동하기2" />
+    <MESSAGE value="2024-04-04 수업" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-04-04 수업" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
