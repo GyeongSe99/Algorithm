@@ -1,4 +1,5 @@
 package G_20055;
+// 컨베이어 벨트 위의 로봇
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
