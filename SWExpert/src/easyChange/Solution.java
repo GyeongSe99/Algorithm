@@ -34,8 +34,10 @@ public class Solution {
                             dp[i][j] = minCnt;
                         }
                     }
-                }
 
+                    System.out.println(dp[i][j]);
+                }
+                System.out.println("----------------------------");
                 result[i - 1] = ((result[i - 1] * changes[i - 1]) - dp[i][N] * changes[i]) / changes[i - 1];
                 result[i] = dp[i][N];
            }
