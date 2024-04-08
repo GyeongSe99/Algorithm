@@ -63,7 +63,6 @@ public class Solution {
             for (int i = 0; i < M; i++) {
                 move();
                 merge();
-
             }
 
             int sum = 0;
