@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Academy : 쉬운 거스름돈">
-      <change afterPath="$PROJECT_DIR$/SWExpert/src/easyChange/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Silver/src/S_14916/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWExpert/src/microbe_isolation/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,49 +39,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SSAFY/Desktop/Algo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/SSAFY/Desktop/Algorithm/Silver/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Failed.executor": "Run",
-    "애플리케이션.G_14442.Main.executor": "Run",
-    "애플리케이션.G_15683.executor": "Run",
-    "애플리케이션.G_2206.Main.executor": "Run",
-    "애플리케이션.G_3190.Main.executor": "Run",
-    "애플리케이션.Main (1).executor": "Run",
-    "애플리케이션.Main (2).executor": "Run",
-    "애플리케이션.Main (3).executor": "Run",
-    "애플리케이션.Main (4).executor": "Run",
-    "애플리케이션.Main (5).executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.PuyoPuyo.executor": "Run",
-    "애플리케이션.S_14916.Main.executor": "Run",
-    "애플리케이션.Solution.executor": "Run",
-    "애플리케이션.changyongVil.Solution.executor": "Run",
-    "애플리케이션.contact.Solution.executor": "Run",
-    "애플리케이션.disjoint_set.Solution.executor": "Run",
-    "애플리케이션.easyChange.Solution.executor": "Run",
-    "애플리케이션.workOrder.Solution.executor": "Run",
-    "애플리케이션.위상정렬_Stack.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SSAFY/Desktop/segyeong/Algorithm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/SSAFY/Desktop/Algorithm/Silver/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Failed.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.G_14442.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.G_15683.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.G_2206.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.G_3190.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main (5).executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PuyoPuyo.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.S_14916.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.changyongVil.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.contact.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.disjoint_set.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.easyChange.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.workOrder.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.위상정렬_Stack.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SSAFY\Desktop\Algorithm\Silver\src" />
@@ -90,7 +90,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.S_14916.Main">
+  <component name="RunManager" selected="애플리케이션.easyChange.Solution">
     <configuration name="G_14442.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_14442.Main" />
       <module name="Gold" />
@@ -156,20 +156,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.S_14916.Main" />
-        <item itemvalue="애플리케이션.easyChange.Solution" />
-        <item itemvalue="애플리케이션.G_14442.Main" />
-        <item itemvalue="애플리케이션.G_2206.Main" />
-        <item itemvalue="애플리케이션.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
       </set>
     </attachedChunks>
   </component>
@@ -209,6 +200,8 @@
       <workItem from="1710920265811" duration="168000" />
       <workItem from="1710920453539" duration="3044000" />
       <workItem from="1711548420236" duration="4694000" />
+      <workItem from="1712553063970" duration="56000" />
+      <workItem from="1712553125110" duration="6172000" />
     </task>
     <task id="LOCAL-00007" summary="백준 2851 : 슈퍼마리오">
       <created>1707312623264</created>
