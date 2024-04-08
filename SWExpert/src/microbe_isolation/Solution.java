@@ -43,7 +43,7 @@ public class Solution {
         StringTokenizer st;
         int T = Integer.parseInt(br.readLine());
 
-        for (int test_case = 1; test_case < T; test_case++) {
+        for (int test_case = 1; test_case <= T; test_case++) {
             st = new StringTokenizer(br.readLine());
             N = Integer.parseInt(st.nextToken());
             M = Integer.parseInt(st.nextToken());
@@ -84,7 +84,7 @@ public class Solution {
             if (checkIsBorder(micro)) {
                 micro.capacity = micro.capacity / 2;
                 if (micro.capacity != 0) {
-                    changeDirection(micro);
+                    micro.d = changeDirection(micro.d);
                 }
             }
         }
@@ -142,15 +142,18 @@ public class Solution {
     }
 
     // 방향 바꿔주기
-    private static void changeDirection(Micro micro) {
-         if (micro.d == 0) {
-             micro.d = 1;
-         } else if (micro.d == 1) {
-             micro.d = 0;
-         } else if (micro.d == 2) {
-             micro.d = 3;
-         } else {
-             micro.d = 2;
-         }
+    private static int changeDirection(int dir) {
+        switch (dir) {
+            case 0: // 상
+                return 1; // 하
+            case 1: // 하
+                return 0; // 상
+            case 2: // 좌
+                return 3; // 우
+            case 3: // 우
+                return 2; // 좌
+            default:
+                return -1;
+        }
     }
 }
