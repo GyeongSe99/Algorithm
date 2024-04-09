@@ -2,13 +2,14 @@ package protectiveFilm;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class Solution {
     // D: R, W: C, K: 합격기준
     private static int minCnt, R, C, K;
     private static int[][] film;
-    private static int[] drugs;
+    private static int[] A, B;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -25,7 +26,10 @@ public class Solution {
             K = Integer.parseInt(st.nextToken());
 
             film = new int[R][C];
-            drugs = new int[R];
+            A = new int[C];
+            B = new int[C];
+
+            Arrays.fill(B, 1);
 
             for (int i = 0; i < R; i++) {
                 st = new StringTokenizer(br.readLine());
@@ -34,12 +38,7 @@ public class Solution {
                 }
             }
 
-            // 약품 안칠하기
-            dfs(2, 0, 0);
-            // A 약품 칠하기
-            dfs(0, 0, 1);
-            // B 약품 칠하기
-            dfs(1, 0, 1);
+            dfs(0, 0, 0);
 
 
             System.out.println("#" + test_case + " " + minCnt);
@@ -54,21 +53,24 @@ public class Solution {
 
         // 마지막까지 다다른경우
         if (idx == R) {
-            // 약품 바른 카피본
-            int[][] copy = copy();
-
             // 성능 검사 통과시 min값 갱신
-            if (check(copy)) {
-                minCnt = Math.min(minCnt, drugCnt);
+            if (check(film)) {
+                minCnt =  drugCnt;
             }
             return;
         }
 
-        drugs[idx] = drug;
+        int[] temp = film[idx];
 
+        // 안칠함
         dfs(2, idx + 1, drugCnt);
+        // A로 칠함
+        film[idx] = A;
         dfs(0, idx + 1, drugCnt + 1);
+        // B로 칠함
+        film[idx] = B;
         dfs(1, idx + 1, drugCnt + 1);
+        film[idx] = temp;
     }
 
     // 성능 검사
@@ -87,6 +89,7 @@ public class Solution {
                     main = compare;
                     compare++;
                     cnt = 1;
+                    if (R - main < K) break;
                 }
 
                 if (cnt >= K) {
@@ -103,35 +106,6 @@ public class Solution {
         }
 
         return true;
-    }
-
-    // 약품 바른 카피본 리턴해주는 함수
-    private static int[][] copy() {
-        int[][] copy = new int[R][C];
-
-        for (int i = 0; i < R; i++) {
-            for (int j = 0; j < C; j++) {
-                // 약품 안바르기
-                if (drugs[i] == 2) {
-                    copy[i][j] = film[i][j];
-                } else {    // 약품 바르기
-                    copy[i][j] = drugs[i];
-                }
-            }
-        }
-
-        return copy;
-    }
-
-
-
-    private static void printDoubleArray(int[][] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(film[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 
 }
