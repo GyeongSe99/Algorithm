@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Academy : 미생물 격리(실패)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWExpert/src/microbe_isolation/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/microbe_isolation/Solution.java" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Academy : 미생물 격리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +203,7 @@
       <workItem from="1711548420236" duration="4694000" />
       <workItem from="1712553063970" duration="56000" />
       <workItem from="1712553125110" duration="6319000" />
-      <workItem from="1712571469071" duration="8091000" />
+      <workItem from="1712571469071" duration="8292000" />
     </task>
     <task id="LOCAL-00007" summary="백준 2851 : 슈퍼마리오">
       <created>1707312623264</created>
@@ -305,14 +302,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00033" summary="프로그래머스 : 조이스틱(실패)">
-      <option name="closed" value="true" />
-      <created>1709970922455</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1709970922455</updated>
     </task>
     <task id="LOCAL-00034" summary="구성 변경">
       <option name="closed" value="true" />
@@ -586,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712578963832</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="SW Academy : 미생물 격리">
+      <option name="closed" value="true" />
+      <created>1712580024369</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1712580024369</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,9 +624,9 @@
     <MESSAGE value="백준 14442 : 벽 부수고 이동하기2" />
     <MESSAGE value="2024-04-04 수업" />
     <MESSAGE value="SW Academy : 쉬운 거스름돈" />
-    <MESSAGE value="SW Academy : 미생물 격리" />
     <MESSAGE value="SW Academy : 미생물 격리(실패)" />
-    <option name="LAST_COMMIT_MESSAGE" value="SW Academy : 미생물 격리(실패)" />
+    <MESSAGE value="SW Academy : 미생물 격리" />
+    <option name="LAST_COMMIT_MESSAGE" value="SW Academy : 미생물 격리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
