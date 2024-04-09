@@ -1,4 +1,4 @@
-package microbe_isolation;
+package microbeIsolation;
 // 미생물 분리
 
 // 보드의 맨 끝은 약품처리가 되어있다.
