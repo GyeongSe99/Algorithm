@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Expert Academy : 미생물 격리">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Expert Academy : 수영대회 결승전">
+      <change afterPath="$PROJECT_DIR$/SWExpert/src/finalSwimmingCompetition/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SWExpert/src/protectiveFilm/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/SWExpert/src/protectiveFilm/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWExpert/protectiveFilm/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SWExpert/protectiveFilm/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/SSAFY/Desktop/segyeong/Algorithm",
+    "last_opened_file_path": "C:/SSAFY/Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +77,7 @@
     "애플리케이션.contact.Solution.executor": "Run",
     "애플리케이션.disjoint_set.Solution.executor": "Run",
     "애플리케이션.easyChange.Solution.executor": "Run",
+    "애플리케이션.finalSwimmingCompetition.Solution.executor": "Run",
     "애플리케이션.protectiveFilm.Solution.executor": "Run",
     "애플리케이션.workOrder.Solution.executor": "Run",
     "애플리케이션.위상정렬_Stack.executor": "Run"
@@ -91,20 +91,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.protectiveFilm.Solution">
-    <configuration name="G_14442.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_14442.Main" />
-      <module name="Gold" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_14442.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.finalSwimmingCompetition.Solution">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_20055.Main" />
       <module name="Gold" />
@@ -144,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="finalSwimmingCompetition.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalSwimmingCompetition.Solution" />
+      <module name="SWExpert" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalSwimmingCompetition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="protectiveFilm.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="protectiveFilm.Solution" />
       <module name="SWExpert" />
@@ -159,17 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.protectiveFilm.Solution" />
-        <item itemvalue="애플리케이션.Solution" />
+        <item itemvalue="애플리케이션.finalSwimmingCompetition.Solution" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -608,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 : 뱀" />
     <MESSAGE value=".." />
     <MESSAGE value="백준 : 3190" />
     <MESSAGE value="백준 : 14502 연구소" />
@@ -633,7 +624,8 @@
     <MESSAGE value="SW Academy : 미생물 격리" />
     <MESSAGE value="SW Expert Academy : 보호 필름 (시간 초과)" />
     <MESSAGE value="SW Expert Academy : 미생물 격리" />
-    <option name="LAST_COMMIT_MESSAGE" value="SW Expert Academy : 미생물 격리" />
+    <MESSAGE value="SW Expert Academy : 수영대회 결승전" />
+    <option name="LAST_COMMIT_MESSAGE" value="SW Expert Academy : 수영대회 결승전" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
