@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Expert Academy : 수영대회 결승전">
-      <change afterPath="$PROJECT_DIR$/SWExpert/src/finalSwimmingCompetition/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SWExpert/protectiveFilm/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SWExpert/protectiveFilm/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,14 +302,6 @@
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
     </task>
-    <task id="LOCAL-00039" summary="SW academy : 하나로">
-      <option name="closed" value="true" />
-      <created>1711616426092</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1711616426092</updated>
-    </task>
     <task id="LOCAL-00040" summary="알고리즘 개념 : 위상정렬">
       <option name="closed" value="true" />
       <created>1711936389535</created>
@@ -582,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712659385589</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="SW Expert Academy : 수영대회 결승전">
+      <option name="closed" value="true" />
+      <created>1712748686258</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1712748686260</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
