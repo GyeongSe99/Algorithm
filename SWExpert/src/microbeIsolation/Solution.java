@@ -34,9 +34,9 @@ public class Solution {
         }
     }
 
-    private static int[][] d = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+    private static final int[][] d = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     private static List<Micro> micros;
-    private static int N, M, K;
+    private static int N;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -46,11 +46,11 @@ public class Solution {
         for (int test_case = 1; test_case <= T; test_case++) {
             st = new StringTokenizer(br.readLine());
             N = Integer.parseInt(st.nextToken());
-            M = Integer.parseInt(st.nextToken());
-            K = Integer.parseInt(st.nextToken());
+            int m = Integer.parseInt(st.nextToken());
+            int k = Integer.parseInt(st.nextToken());
             micros = new ArrayList<>();
 
-            for (int i = 0; i < K; i++) {
+            for (int i = 0; i < k; i++) {
                 st = new StringTokenizer(br.readLine());
                 int r = Integer.parseInt(st.nextToken());
                 int c = Integer.parseInt(st.nextToken());
@@ -60,14 +60,14 @@ public class Solution {
                 micros.add(newMicro);
             }
 
-            for (int i = 0; i < M; i++) {
+            for (int i = 0; i < m; i++) {
                 move();
                 merge();
             }
 
             int sum = 0;
-            for (int i = 0; i < micros.size(); i++) {
-                sum += micros.get(i).capacity;
+            for (Micro micro : micros) {
+                sum += micro.capacity;
             }
 
             System.out.println("#" + test_case + " " + sum);
@@ -76,8 +76,7 @@ public class Solution {
 
     // 이동하는 메소드
     private static void move() {
-        for (int i = 0; i < micros.size(); i++) {
-            Micro micro = micros.get(i);
+        for (Micro micro : micros) {
             micro.r = micro.r + d[micro.d][0];
             micro.c = micro.c + d[micro.d][1];
 
