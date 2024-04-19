@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="SW Expert Academy : 미생물 격리">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="AlgoTest : 그래프, DP 파트">
+      <change afterPath="$PROJECT_DIR$/Silver/src/S_4948/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_11726/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_11726/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_12891/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_12891/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_1463/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_1463/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_14916/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_14916/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_1904/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_1904/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_2304/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_2304/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_9012/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_9012/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_9095/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_9095/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +80,7 @@
     &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.PuyoPuyo.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.S_14916.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.S_4948.Main.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.Solution.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.changyongVil.Solution.executor&quot;: &quot;Run&quot;,
     &quot;애플리케이션.contact.Solution.executor&quot;: &quot;Run&quot;,
@@ -90,13 +100,13 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.finalSwimmingCompetition.Solution">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_20055.Main" />
-      <module name="Gold" />
+  <component name="RunManager" selected="애플리케이션.S_4948.Main">
+    <configuration name="S_14916.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_14916.Main" />
+      <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="G_20055.*" />
+          <option name="PATTERN" value="S_14916.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S_14916.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_14916.Main" />
+    <configuration name="S_4948.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_4948.Main" />
       <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S_14916.*" />
+          <option name="PATTERN" value="S_4948.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,9 +168,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.S_4948.Main" />
         <item itemvalue="애플리케이션.finalSwimmingCompetition.Solution" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -203,6 +221,14 @@
       <workItem from="1712571469071" duration="8292000" />
       <workItem from="1712641295459" duration="8340000" />
       <workItem from="1712881057919" duration="8000" />
+      <workItem from="1713148561263" duration="276000" />
+      <workItem from="1713151508637" duration="452000" />
+      <workItem from="1713248063709" duration="763000" />
+      <workItem from="1713257834875" duration="114000" />
+      <workItem from="1713322125082" duration="5297000" />
+      <workItem from="1713420369183" duration="3721000" />
+      <workItem from="1713436598726" duration="4696000" />
+      <workItem from="1713492612723" duration="1448000" />
     </task>
     <task id="LOCAL-00007" summary="백준 2851 : 슈퍼마리오">
       <created>1707312623264</created>
@@ -301,14 +327,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00040" summary="알고리즘 개념 : 위상정렬">
-      <option name="closed" value="true" />
-      <created>1711936389535</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1711936389535</updated>
     </task>
     <task id="LOCAL-00041" summary="알고리즘 개념 : 위상정렬">
       <option name="closed" value="true" />
@@ -582,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712748686260</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="AlgoTest : 그래프, DP 파트">
+      <option name="closed" value="true" />
+      <created>1713148828617</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1713148828617</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".." />
     <MESSAGE value="백준 : 3190" />
     <MESSAGE value="백준 : 14502 연구소" />
     <MESSAGE value="SW academy : 하나로" />
@@ -625,7 +650,8 @@
     <MESSAGE value="SW Expert Academy : 보호 필름 (시간 초과)" />
     <MESSAGE value="SW Expert Academy : 미생물 격리" />
     <MESSAGE value="SW Expert Academy : 수영대회 결승전" />
-    <option name="LAST_COMMIT_MESSAGE" value="SW Expert Academy : 수영대회 결승전" />
+    <MESSAGE value="AlgoTest : 그래프, DP 파트" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlgoTest : 그래프, DP 파트" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
