@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="AlgoTest : 그래프, DP 파트">
-      <change afterPath="$PROJECT_DIR$/Bronze/src/B_2309/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2309 일곱난쟁이" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,38 +324,6 @@
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
     </task>
-    <task id="LOCAL-00041" summary="알고리즘 개념 : 위상정렬">
-      <option name="closed" value="true" />
-      <created>1711940345813</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1711940345813</updated>
-    </task>
-    <task id="LOCAL-00042" summary="알고리즘 개념 : 위상정렬">
-      <option name="closed" value="true" />
-      <created>1711951409345</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1711951409345</updated>
-    </task>
-    <task id="LOCAL-00043" summary="알고리즘 개념 : 프림 최소신장">
-      <option name="closed" value="true" />
-      <created>1711951433870</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1711951433870</updated>
-    </task>
-    <task id="LOCAL-00044" summary="알고리즘 개념 : 프림_우선순위큐 최소신장">
-      <option name="closed" value="true" />
-      <created>1711952294134</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1711952294134</updated>
-    </task>
     <task id="LOCAL-00045" summary="알고리즘 개념 : 다익스트라">
       <option name="closed" value="true" />
       <created>1711954982545</created>
@@ -607,7 +572,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713148828617</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add class file">
+      <option name="closed" value="true" />
+      <created>1717415184752</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1717415184752</updated>
+    </task>
+    <task id="LOCAL-00077" summary="add class file">
+      <option name="closed" value="true" />
+      <created>1717415190128</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1717415190128</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add class file">
+      <option name="closed" value="true" />
+      <created>1717415193770</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1717415193771</updated>
+    </task>
+    <task id="LOCAL-00079" summary="백준 2309 일곱난쟁이">
+      <option name="closed" value="true" />
+      <created>1717415247332</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1717415247332</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,8 +622,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 : 3190" />
-    <MESSAGE value="백준 : 14502 연구소" />
     <MESSAGE value="SW academy : 하나로" />
     <MESSAGE value="알고리즘 개념 : 위상정렬" />
     <MESSAGE value="알고리즘 개념 : 프림 최소신장" />
@@ -650,7 +645,9 @@
     <MESSAGE value="SW Expert Academy : 미생물 격리" />
     <MESSAGE value="SW Expert Academy : 수영대회 결승전" />
     <MESSAGE value="AlgoTest : 그래프, DP 파트" />
-    <option name="LAST_COMMIT_MESSAGE" value="AlgoTest : 그래프, DP 파트" />
+    <MESSAGE value="add class file" />
+    <MESSAGE value="백준 2309 일곱난쟁이" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 2309 일곱난쟁이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
