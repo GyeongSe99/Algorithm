@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1730 판화" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1730 판화">
+      <change afterPath="$PROJECT_DIR$/Silver/src/S_2840/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_1730/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_1730/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +89,7 @@
     "애플리케이션.Main.executor": "Debug",
     "애플리케이션.PuyoPuyo.executor": "Run",
     "애플리케이션.S_14916.Main.executor": "Run",
+    "애플리케이션.S_2840.Main.executor": "Run",
     "애플리케이션.S_3085.Main.executor": "Run",
     "애플리케이션.S_4948.Main.executor": "Run",
     "애플리케이션.Solution.executor": "Run",
@@ -106,7 +111,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.S_1730.Main">
+  <component name="RunManager" selected="애플리케이션.S_2840.Main">
     <configuration name="B_11068.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B_11068.Main" />
       <module name="Bronze" />
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="B_2309.Main" />
-      <module name="Bronze" />
+    <configuration name="S_1730.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_1730.Main" />
+      <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="B_2309.*" />
+          <option name="PATTERN" value="S_1730.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S_1730.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_1730.Main" />
+    <configuration name="S_2840.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_2840.Main" />
       <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S_1730.*" />
+          <option name="PATTERN" value="S_2840.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,7 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S_1730.Main" />
+        <item itemvalue="애플리케이션.S_2840.Main" />
         <item itemvalue="애플리케이션.B_11068.Main" />
       </list>
     </recent_temporary>
@@ -326,14 +331,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00055" summary="백준20055 : 컨베이어 벨트 위의 로봇">
-      <option name="closed" value="true" />
-      <created>1712115877488</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1712115877488</updated>
     </task>
     <task id="LOCAL-00056" summary="백준20055 : 컨베이어 벨트 위의 로봇">
       <option name="closed" value="true" />
@@ -607,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718531593491</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="백준 1730 판화">
+      <option name="closed" value="true" />
+      <created>1718627665476</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1718627665477</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,6 +679,11 @@
           <url>file://$PROJECT_DIR$/Gold/src/G_11559/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Silver/src/S_2840/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
