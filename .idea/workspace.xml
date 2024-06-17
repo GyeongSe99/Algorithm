@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 3085 사탕게임">
-      <change afterPath="$PROJECT_DIR$/Silver/src/S_1730/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1730 판화" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,14 +327,6 @@
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
     </task>
-    <task id="LOCAL-00054" summary="백준 : 컨베이어 벨트 위의 로봇">
-      <option name="closed" value="true" />
-      <created>1712047677269</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1712047677269</updated>
-    </task>
     <task id="LOCAL-00055" summary="백준20055 : 컨베이어 벨트 위의 로봇">
       <option name="closed" value="true" />
       <created>1712115877488</created>
@@ -610,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718516730993</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="백준 1730 판화">
+      <option name="closed" value="true" />
+      <created>1718531593491</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1718531593491</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="알고리즘 개념 : 다익스트라" />
     <MESSAGE value="SW academy : 보급로" />
     <MESSAGE value="SW academy : contact" />
     <MESSAGE value="SW academy : 창용 마을 무리의 개수" />
@@ -653,7 +649,8 @@
     <MESSAGE value="백준 11005 진법 변환2" />
     <MESSAGE value="백준 11068 회문인 수" />
     <MESSAGE value="백준 3085 사탕게임" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 3085 사탕게임" />
+    <MESSAGE value="백준 1730 판화" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1730 판화" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
