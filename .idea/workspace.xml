@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 10814 나이순 정렬">
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 1302 베스트 셀러">
+      <change afterPath="$PROJECT_DIR$/Silver/src/S_2910/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +90,7 @@
     "애플리케이션.S_1181.Main.executor": "Run",
     "애플리케이션.S_14916.Main.executor": "Run",
     "애플리케이션.S_2840.Main.executor": "Run",
+    "애플리케이션.S_2910.Main.executor": "Run",
     "애플리케이션.S_3085.Main.executor": "Run",
     "애플리케이션.S_3273.Main.executor": "Run",
     "애플리케이션.S_4948.Main.executor": "Run",
@@ -113,7 +115,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.S_7785.Main">
+  <component name="RunManager" selected="애플리케이션.S_2910.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S_10814.Main" />
       <module name="Silver" />
@@ -133,6 +135,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="S_10814.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S_2910.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_2910.Main" />
+      <module name="Silver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S_2910.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +161,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="S_3273.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S_4948.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_4948.Main" />
-      <module name="Silver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="S_4948.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.S_2910.Main" />
         <item itemvalue="애플리케이션.S_7785.Main" />
         <item itemvalue="애플리케이션.S_3273.Main" />
         <item itemvalue="애플리케이션.Main" />
@@ -348,14 +351,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00059" summary="백준 2206 : 벽 부수고 이동하기">
-      <option name="closed" value="true" />
-      <created>1712192602868</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1712192602868</updated>
     </task>
     <task id="LOCAL-00060" summary="백준 20055 : 컨베이어 벨트 위의 로봇">
       <option name="closed" value="true" />
@@ -629,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718723127299</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="백준 1302 베스트 셀러">
+      <option name="closed" value="true" />
+      <created>1722866531477</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1722866531477</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="이름 변경 : SW academy -&gt; SW Expert" />
     <MESSAGE value="SW Expert : 서로소 집합" />
     <MESSAGE value="백준 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준20055 : 컨베이어 벨트 위의 로봇" />
@@ -672,7 +674,8 @@
     <MESSAGE value="백준 2840 행운의 바퀴" />
     <MESSAGE value="백준 2817 ALPS식 투표" />
     <MESSAGE value="백준 10814 나이순 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 10814 나이순 정렬" />
+    <MESSAGE value="백준 1302 베스트 셀러" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 1302 베스트 셀러" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
