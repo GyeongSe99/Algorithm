@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2910 빈도 정렬">
-      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_1302/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_1302/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Silver/src/S_18870/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_2910/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_2910/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_2910/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_2910/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +91,7 @@
     "애플리케이션.PuyoPuyo.executor": "Run",
     "애플리케이션.S_1181.Main.executor": "Run",
     "애플리케이션.S_14916.Main.executor": "Run",
+    "애플리케이션.S_18870.Main.executor": "Run",
     "애플리케이션.S_2840.Main.executor": "Run",
     "애플리케이션.S_2910.Main.executor": "Run",
     "애플리케이션.S_3085.Main.executor": "Run",
@@ -114,7 +118,7 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.S_2910.Main">
+  <component name="RunManager" selected="애플리케이션.S_18870.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S_10814.Main" />
       <module name="Silver" />
@@ -134,6 +138,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="S_10814.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S_18870.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_18870.Main" />
+      <module name="Silver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S_18870.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,25 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_10814.Solution" />
-      <module name="Silver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="S_10814.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.S_18870.Main" />
         <item itemvalue="애플리케이션.S_2910.Main" />
         <item itemvalue="애플리케이션.S_7785.Main" />
         <item itemvalue="애플리케이션.S_3273.Main" />
-        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
@@ -350,14 +354,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00061" summary="백준 14442 : 벽 부수고 이동하기2">
-      <option name="closed" value="true" />
-      <created>1712193025276</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1712193025276</updated>
     </task>
     <task id="LOCAL-00062" summary="2024-04-04 수업">
       <option name="closed" value="true" />
@@ -631,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722955727751</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="백준 2910 빈도 정렬">
+      <option name="closed" value="true" />
+      <created>1723037158833</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1723037158833</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
