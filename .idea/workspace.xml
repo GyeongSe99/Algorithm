@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 2910 빈도 정렬">
-      <change afterPath="$PROJECT_DIR$/Silver/src/S_18870/Main.java" afterDir="false" />
+    <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 18870 좌표 압축">
+      <change afterPath="$PROJECT_DIR$/Silver/src/S_8979/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_2910/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_2910/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Silver/S_2910/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Silver/S_2910/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -98,6 +96,7 @@
     "애플리케이션.S_3273.Main.executor": "Run",
     "애플리케이션.S_4948.Main.executor": "Run",
     "애플리케이션.S_7785.Main.executor": "Run",
+    "애플리케이션.S_8979.Main.executor": "Run",
     "애플리케이션.Solution (1).executor": "Run",
     "애플리케이션.Solution.executor": "Run",
     "애플리케이션.changyongVil.Solution.executor": "Run",
@@ -118,13 +117,26 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.S_18870.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_10814.Main" />
+  <component name="RunManager" selected="애플리케이션.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_8979.Main" />
       <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S_10814.*" />
+          <option name="PATTERN" value="S_8979.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_8979.Main" />
+      <module name="Silver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="S_8979.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,25 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S_3273.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_3273.Main" />
+    <configuration name="S_8979.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S_8979.Main" />
       <module name="Silver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S_3273.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S_7785.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_7785.Main" />
-      <module name="Silver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="S_7785.*" />
+          <option name="PATTERN" value="S_8979.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Main (1)" />
+        <item itemvalue="애플리케이션.S_8979.Main" />
         <item itemvalue="애플리케이션.S_18870.Main" />
         <item itemvalue="애플리케이션.S_2910.Main" />
-        <item itemvalue="애플리케이션.S_7785.Main" />
-        <item itemvalue="애플리케이션.S_3273.Main" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -354,14 +353,6 @@
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
-    </task>
-    <task id="LOCAL-00062" summary="2024-04-04 수업">
-      <option name="closed" value="true" />
-      <created>1712202812710</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1712202812710</updated>
     </task>
     <task id="LOCAL-00063" summary="SW Academy : 쉬운 거스름돈">
       <option name="closed" value="true" />
@@ -635,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723037158833</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="백준 18870 좌표 압축">
+      <option name="closed" value="true" />
+      <created>1723038618936</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1723038618936</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +652,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준20055 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준 2206 : 벽 부수고 이동하기" />
     <MESSAGE value="백준 20055 : 컨베이어 벨트 위의 로봇" />
@@ -678,7 +676,8 @@
     <MESSAGE value="백준 10814 나이순 정렬" />
     <MESSAGE value="백준 1302 베스트 셀러" />
     <MESSAGE value="백준 2910 빈도 정렬" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 2910 빈도 정렬" />
+    <MESSAGE value="백준 18870 좌표 압축" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 18870 좌표 압축" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
