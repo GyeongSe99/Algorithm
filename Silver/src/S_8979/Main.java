@@ -1,5 +1,11 @@
 package S_8979;
 
+// 1. 배열의 0번에 나라번호, 그 이후로 금은동 순서대로 넣기
+// 2. 금 -> 은 -> 동 순서대로 값 비교하는 comparator만들기 (혹시 또 쓸 수 있을까봐 따로 만듦)
+// 3. Array.sort(arr, comparator)메소드 이용하여 정렬한 후
+// 4. arr 순서대로 돌면서 이전 메달과 현재 메달 비교. rank를 + 1 해줘야하는지 or 공동 rank인지 아닌지 확인
+// 5. 반복문 마지막에 내가 찾는 나라라면 break
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;

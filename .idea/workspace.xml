@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 8979 올림픽">
-      <change afterPath="$PROJECT_DIR$/Silver/src/S_8979/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Silver/S_18870/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Silver/src/S_8979/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Silver/src/S_8979/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,14 +353,6 @@
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
     </task>
-    <task id="LOCAL-00064" summary="SW Academy : 쉬운 거스름돈">
-      <option name="closed" value="true" />
-      <created>1712285291688</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1712285291688</updated>
-    </task>
     <task id="LOCAL-00065" summary="SW Academy : 미생물 격리">
       <option name="closed" value="true" />
       <created>1712566510756</created>
@@ -635,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723124577245</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="백준 8979 올림픽">
+      <option name="closed" value="true" />
+      <created>1723124612219</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1723124612219</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
