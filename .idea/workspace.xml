@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 8979 올림픽">
-      <change afterPath="$PROJECT_DIR$/Bronze/src/B_11382/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bronze/src/B_14681/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/24__8__10___5_15__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/24__8__10___5_15__________.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,20 @@
       <recent name="dijkstra" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.B_14681.Main">
+    <configuration name="B_14681.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="B_14681.Main" />
+      <module name="Bronze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="B_14681.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S_8979.Main" />
       <module name="Silver" />
@@ -169,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S_2910.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S_2910.Main" />
-      <module name="Silver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="S_2910.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="S_8979.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S_8979.Main" />
       <module name="Silver" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.B_14681.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main (1)" />
         <item itemvalue="애플리케이션.S_8979.Main" />
         <item itemvalue="애플리케이션.S_18870.Main" />
-        <item itemvalue="애플리케이션.S_2910.Main" />
       </list>
     </recent_temporary>
   </component>
