@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d34c463a-8e92-42f0-9508-13c5da5ab2b2" name="변경" comment="백준 14681 사분면 고르기">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/24__8__12___10_47__________.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/24__8__12__오후_10_47,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bronze/src/B_14681/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/24__8__10___5_15__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/24__8__10___5_15__________.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -358,14 +355,6 @@
       <option name="project" value="LOCAL" />
       <updated>1707565589371</updated>
     </task>
-    <task id="LOCAL-00066" summary="SW Academy : 미생물 격리(실패)">
-      <option name="closed" value="true" />
-      <created>1712578733914</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1712578733914</updated>
-    </task>
     <task id="LOCAL-00067" summary="SW Academy : 미생물 격리(실패)">
       <option name="closed" value="true" />
       <created>1712578963832</created>
@@ -638,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723470916096</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="백준 14681 사분면 고르기">
+      <option name="closed" value="true" />
+      <created>1723471037455</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1723471037455</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +653,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="백준 2206 : 벽 부수고 이동하기" />
     <MESSAGE value="백준 20055 : 컨베이어 벨트 위의 로봇" />
     <MESSAGE value="백준 14442 : 벽 부수고 이동하기2" />
     <MESSAGE value="2024-04-04 수업" />
@@ -681,7 +677,8 @@
     <MESSAGE value="백준 2910 빈도 정렬" />
     <MESSAGE value="백준 18870 좌표 압축" />
     <MESSAGE value="백준 8979 올림픽" />
-    <option name="LAST_COMMIT_MESSAGE" value="백준 8979 올림픽" />
+    <MESSAGE value="백준 14681 사분면 고르기" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 14681 사분면 고르기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
