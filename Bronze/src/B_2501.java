@@ -24,7 +24,6 @@ public class B_2501 {
         } else {
             System.out.println(num);
         }
-
     }
 
 }
