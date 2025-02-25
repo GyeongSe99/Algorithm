@@ -55,7 +55,6 @@ public class PG_72411 {
             combination(order, sb, i + 1, length);
             sb.deleteCharAt(sb.length() - 1);
         }
-
     }
 
     public static void main(String[] args) {
