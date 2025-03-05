@@ -1,3 +1,5 @@
+// Set, binarySearch메소드, 이분탐색 직접 구현 가능
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
