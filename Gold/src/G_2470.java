@@ -44,4 +44,44 @@ public class G_2470 {
         System.out.println(ans1 + " " + ans2);
     }
 
+    private static String solution2(int[] arr, int N) {
+        Arrays.sort(arr);
+
+        int ansAbs = Math.abs(arr[0] + arr[1]);
+        int ans1 = arr[0];
+        int ans2 = arr[1];
+        for (int i = 0; i < N - 1; i++) {
+            int pair = findPair(arr, i + 1, N - 1, arr[i]);
+            int sumAbs = Math.abs(arr[i] + pair);
+            if (ansAbs > sumAbs) {
+                ansAbs = sumAbs;
+                ans1 = arr[i];
+                ans2 = pair;
+            }
+        }
+
+        return ans1 + " " + ans2;
+    }
+
+    private static int findPair(int[] arr, int start, int end, int value) {
+        int pair = arr[start];
+        int min = Math.abs(arr[start] + value);
+        int left = start, right = end;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            int sum = arr[mid] + value;
+            int sumAbs = Math.abs(sum);
+            if (sumAbs < min) {
+                pair = arr[mid];
+                min = sumAbs;
+            }
+            if (sum < 0) left = mid + 1;
+            else if (sum > 0) right = mid - 1;
+            else return arr[mid];
+        }
+
+        return pair;
+    }
+
 }
