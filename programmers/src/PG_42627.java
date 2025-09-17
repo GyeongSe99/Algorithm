@@ -46,7 +46,7 @@ public class PG_42627 {
 				int[] cur = pq.poll();
 
 				time += cur[2];
-				total += cur[2];
+				total += time - cur[1];
 				doneIdx++;
 			}
 		}
