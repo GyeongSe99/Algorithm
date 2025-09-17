@@ -29,7 +29,7 @@ public class PG_42627 {
 
 		int time = 0;
 		int idx = 0;
-		int doneIdx = -1;
+		int doneIdx = 0;
 		int total = 0;
 
 		while (doneIdx < n) {
@@ -40,8 +40,7 @@ public class PG_42627 {
 			}
 
 			if (pq.isEmpty()) {
-				if (idx < n)
-				time = Math.max(time, arr[idx][1]);
+				if (idx < n) time = Math.max(time, arr[idx][1]);
 			} else {
 				// 우선 순위가 가장 높은 작업 실행
 				int[] cur = pq.poll();
